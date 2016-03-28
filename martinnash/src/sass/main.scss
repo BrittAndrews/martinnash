@@ -14,29 +14,33 @@
 
 ///////////////NAV////////
 
+nav{
+	// display:flex;
+	// align-items:flex-end;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white;
+    // background-color: white;
     position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 9999;
-	width: 100%;
 	opacity: 0.9;
 	
 }
 
 li {
-    float: left;
+    // float: left;
 }
 
 li a {
-    display: block;
-    color: #999;
-    text-shadow: 0px 0px 2px white;
+    display: inline-block;
+    color: pink;
+    // text-shadow: 0px 0px 2px white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -53,12 +57,14 @@ li a:hover {
 /////////// MAIN IMAGE///////////////
 
 .header_image{
-	// background-color: black;
+	background: black;
+
 }
 
 
 .header_image img {
 	width: 100%;
+	opacity: 0.4;
 	// position: static;
 	// opacity: 0.7;
 
