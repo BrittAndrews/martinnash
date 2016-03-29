@@ -2,17 +2,25 @@
 
 
 .wrapper {
-	background-color: white;
+	background-color: black;
 	display:block;
-	overflow: hidden;
-
-
 
 }
 
 
+////logo///
 
+.logo{
+	margin-left: 15px;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	width: 150px;
+	height: auto;
+}
 
+.logo img{
+	width: 100%;
+}
 
 ///////////////NAV////////
 
@@ -23,7 +31,7 @@ nav{
 
 nav ul {
     list-style-type: none;
-    margin: 0;
+    // margin-bottom: 50px;
     padding: 0;
     overflow: hidden;
     position: fixed;
@@ -37,6 +45,7 @@ nav ul {
 }
 
 nav li {
+	margin-bottom: 50px;
 
    
 }
@@ -53,19 +62,32 @@ nav li a {
     font-weight: bold;
 }
 
-nav li:hover {
+
+
+span {
+    opacity: 0;
+}
+
+span:hover {
+    opacity:0.9;
+}
+
+.material-icons:hover {
     color: red;
-    text-shadow: pink;
+
 }
 
 
 ///////////slideshow///////////////
+.header_image{
+
+}
+
 
 .header_image img{
 	top:0;
 	left:0;
 	max-width: 100%;
-
 
 }
 
@@ -73,12 +95,6 @@ nav li:hover {
 // .marquee{
 // 	font-family: 'Kaushan Script', cursive;
 // 	
-
-
-
-
-
-
 
 
 #slideshow { 
@@ -100,6 +116,42 @@ nav li:hover {
 
 
 
+
+
+
+
+
+
+//////////////////////////////////////////////
+
+///////////////////////////////////aboutCSS///
+
+
+
+
+.wrapper_about {
+    background-color: #292B24;
+    margin:0;
+    height:100vh;
+}
+
+
+.about{
+    color:white;
+    margin:auto;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+
+}
+
+.wrapper_about h4{
+    margin:0;
+}
+
+.about p {
+    width:500px;
+}
 
 
 
