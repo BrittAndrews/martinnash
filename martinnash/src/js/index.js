@@ -2,34 +2,21 @@ import $ from "jquery";
 
  
 
-(function(){
- 
-var counter = 0,
-$items = document.querySelectorAll('.diy-slideshow figure'),
-numItems = $items.length;
- 
-var showCurrent = function(){
-var itemToShow = Math.abs(counter%numItems);
- 
-[].forEach.call( $items, function(el){
-el.classList.remove('show');
-});
- 
-$items[itemToShow].classList.add('show');
-};
- 
-document.querySelector('.next').addEventListener('click', function() {
-counter++;
-showCurrent();
-}, false);
- 
-document.querySelector('.prev').addEventListener('click', function() {
-counter--;
-showCurrent();
-}, false);
- 
-})();
- 
+
+
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(5000)
+    .next()
+    .fadeIn(5000)
+    .end()
+    .appendTo('#slideshow');
+},  8000);
+
+
+
 
 
 
