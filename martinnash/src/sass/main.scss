@@ -10,12 +10,24 @@
 
 ////logo///
 
+.logo a {
+    text-decoration: none;
+    font-family: arial;
+    font-weight: bold;
+    color: gray;
+    font-size: large;
+}
+
+
 .logo{
-	margin-left: 15px;
-	margin-top: 5px;
-	margin-bottom: 25px;
-	width: 150px;
+	margin-left: 25px;
+	padding-top: 15px;
+	margin-bottom: 35px;
+	width: 180px;
 	height: auto;
+
+    // font-family: 'Kaushan Script', cursive;
+
 }
 
 .logo img{
@@ -27,11 +39,16 @@
 nav{
 
 
+
 }
 
 nav ul {
+    margin-top: 0;
+    background-color: white;
+    width: 120px;
+    opacity: 0.4;
+    height: 100vh;
     list-style-type: none;
-    // margin-bottom: 50px;
     padding: 0;
     overflow: hidden;
     position: fixed;
@@ -46,36 +63,53 @@ nav ul {
 
 nav li {
 	margin-bottom: 50px;
+    margin-left: 30px;
 
    
 }
 
-nav li a {
-
-    display: inline-block;
-    color: white;
-    font-weight: bold;
-    // text-shadow: 0px 0px 2px white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-weight: bold;
-}
 
 
+.material-icons{
+    // color: #66FF66;
+    color: black;
 
-span {
-    opacity: 0;
-}
 
-span:hover {
-    opacity:0.9;
 }
 
 .material-icons:hover {
-    color: red;
+    color: #C4E1AB;
+
 
 }
+
+
+nav li a {
+
+    text-decoration: none;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ///////////slideshow///////////////
@@ -90,6 +124,14 @@ span:hover {
 	max-width: 100%;
 
 }
+
+
+
+
+
+
+
+
 
 
 // .marquee{
@@ -130,9 +172,22 @@ span:hover {
 
 
 .wrapper_about {
-    background-color: #292B24;
+    background-color: #1B1A16;
     margin:0;
     height:100vh;
+}
+
+
+.about img {
+    width: 300px;
+}
+
+.wrapper_about h4{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    margin:0;
+    font-size: 40px;
 }
 
 
@@ -142,16 +197,225 @@ span:hover {
     display:flex;
     justify-content:space-around;
     align-items:center;
-
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 80px;
+    text-align: justify;
+    line-height: 22px;
 }
 
-.wrapper_about h4{
-    margin:0;
-}
+
+
 
 .about p {
     width:500px;
 }
+
+
+///////////////////////////////////////lighting////
+
+
+
+.wrapper_lighting{
+    background-color: #1B1A16;
+
+    margin-top:0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.wrapper_lighting h4 {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    margin:0;
+    font-size: 40px;
+}
+
+
+.lightingcontent{
+    color:white;
+    margin:auto;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 80px;
+    text-align: justify;
+}
+
+
+.lightingcontent a {
+     text-decoration: none;
+     color: #C4E1AB;
+}
+
+.lightingcontent a:hover {
+     text-decoration: none;
+     color: purple;
+
+}
+
+.lightingcontent i{
+    color: #C4E1AB;
+}
+
+
+
+///////////////////////////////////////furniture////
+
+
+
+
+.wrapper_furniture {
+
+    background-color: #1B1A16;
+    margin-top:0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.wrapper_furniture h4 {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    margin:0;
+    font-size: 40px;
+}
+
+.furniture {
+    color:white;
+    margin:auto;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 80px;
+    text-align: justify;
+
+}
+
+
+.furniture a {
+     text-decoration: none;
+     color: #C4E1AB;
+}
+
+.furniture a:hover {
+     text-decoration: none;
+     color: purple;
+
+}
+
+
+
+
+
+//////////////////////////////////////wallcoverings////
+
+
+
+
+.wrapper_wallcoverings {
+
+    background-color: #1B1A16;
+    margin-top:0;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+
+.wrapper_wallcoverings h4 {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    margin:0;
+    font-size: 40px;
+}
+
+.wallcoverings {
+    color:white;
+    margin:auto;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 80px;
+    text-align: justify;
+
+}
+
+
+.wallcoverings a {
+     text-decoration: none;
+     color: #C4E1AB;
+}
+
+.wallcoverings a:hover {
+     text-decoration: none;
+     color: purple;
+
+}
+
+
+
+//////////////////////////////////////wallcoverings////
+
+
+
+
+.wrapper_fabric {
+
+    background-color: #1B1A16;
+    margin-top:0;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+
+.wrapper_fabric h4 {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    margin:0;
+    font-size: 40px;
+}
+
+.fabric {
+    color:white;
+    margin:auto;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 80px;
+    text-align: justify;
+
+}
+
+
+.fabric a {
+     text-decoration: none;
+     color: #C4E1AB;
+}
+
+.fabric a:hover {
+     text-decoration: none;
+     color: purple;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
